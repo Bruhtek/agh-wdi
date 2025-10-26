@@ -1,5 +1,6 @@
 # Proszę napisać program obliczający wartości cos(x) z rozwinięcia w szereg Maclaurina.
 # cos(x) = ∑∞ (−1)n/(2n)! x2n
+
 import math
 
 x = float(input("X (in rad) = "))

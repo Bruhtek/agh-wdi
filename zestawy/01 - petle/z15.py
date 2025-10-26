@@ -1,3 +1,7 @@
+# Dwie różne liczby nazywamy zaprzyjaźnionymi gdy każda jest równa sumie podzielników
+# właściwych drugiej liczby, na przykład 220 i 284. Proszę napisać program wyszukujący liczby zaprzyjaźnione
+# mniejsze od miliona.
+
 def sp(n) -> int:
     sum = 1
     i = 2
