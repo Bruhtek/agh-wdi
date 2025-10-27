@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3eccf7d1-e0cc-4997-836a-9b2da9503f18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,10 @@
     "Python.z35.executor": "Run",
     "Python.z4.executor": "Run",
     "Python.z40.executor": "Run",
+    "Python.z41.executor": "Run",
+    "Python.z42.executor": "Run",
+    "Python.z43.executor": "Run",
+    "Python.z44.executor": "Run",
     "Python.z5.executor": "Run",
     "Python.z52.executor": "Run",
     "Python.z59.executor": "Run",
@@ -119,7 +122,8 @@
       <workItem from="1760434402960" duration="4335000" />
       <workItem from="1760891802065" duration="287000" />
       <workItem from="1761039143635" duration="5042000" />
-      <workItem from="1761488347820" duration="6738000" />
+      <workItem from="1761488347820" duration="7655000" />
+      <workItem from="1761580981439" duration="3678000" />
     </task>
     <servers />
   </component>
@@ -130,6 +134,7 @@
     <SUITE FILE_PATH="coverage/wdi$z20.coverage" NAME="z20 Coverage Results" MODIFIED="1761472570662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z17.coverage" NAME="z17 Coverage Results" MODIFIED="1761471911276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z6.coverage" NAME="z6 Coverage Results" MODIFIED="1759832065463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
+    <SUITE FILE_PATH="coverage/wdi$z43.coverage" NAME="z43 Coverage Results" MODIFIED="1761584231089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z52.coverage" NAME="z52 Coverage Results" MODIFIED="1761494820519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z11.coverage" NAME="z11 Coverage Results" MODIFIED="1760436581958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z26.coverage" NAME="z26 Coverage Results" MODIFIED="1761474966451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
@@ -149,7 +154,7 @@
     <SUITE FILE_PATH="coverage/wdi$z31.coverage" NAME="z31 Coverage Results" MODIFIED="1761488608031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z34.coverage" NAME="z34 Coverage Results" MODIFIED="1761491005577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z25.coverage" NAME="z25 Coverage Results" MODIFIED="1761474600267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
-    <SUITE FILE_PATH="coverage/wdi$z40.coverage" NAME="z40 Coverage Results" MODIFIED="1761495120831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
+    <SUITE FILE_PATH="coverage/wdi$z40.coverage" NAME="z40 Coverage Results" MODIFIED="1761495155294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z65.coverage" NAME="z65 Coverage Results" MODIFIED="1761041354973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/02 - tablice 1D" />
     <SUITE FILE_PATH="coverage/wdi$z30.coverage" NAME="z30 Coverage Results" MODIFIED="1761475505805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z33.coverage" NAME="z33 Coverage Results" MODIFIED="1761489940974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
@@ -159,7 +164,10 @@
     <SUITE FILE_PATH="coverage/wdi$z59.coverage" NAME="z59 Coverage Results" MODIFIED="1761469272707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z1.coverage" NAME="z1 Coverage Results" MODIFIED="1761469594348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z10.coverage" NAME="z10 Coverage Results" MODIFIED="1761470210738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
+    <SUITE FILE_PATH="coverage/wdi$z42.coverage" NAME="z42 Coverage Results" MODIFIED="1761584049675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
+    <SUITE FILE_PATH="coverage/wdi$z41.coverage" NAME="z41 Coverage Results" MODIFIED="1761582588832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z15.coverage" NAME="z15 Coverage Results" MODIFIED="1760438481755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
+    <SUITE FILE_PATH="coverage/wdi$z44.coverage" NAME="z44 Coverage Results" MODIFIED="1761584684590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z18.coverage" NAME="z18 Coverage Results" MODIFIED="1760437759045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z2.coverage" NAME="z2 Coverage Results" MODIFIED="1760439620625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/01 - petle" />
     <SUITE FILE_PATH="coverage/wdi$z67.coverage" NAME="z67 Coverage Results" MODIFIED="1761044325083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zestawy/02 - tablice 1D" />
