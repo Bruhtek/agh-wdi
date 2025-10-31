@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eccf7d1-e0cc-4997-836a-9b2da9503f18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wdi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wdi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Bruhtek"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Bruhtek/agh-wdi.git",
+    "accountId": "a50ce72d-a9b0-4008-af86-a81c513792bf"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -34,76 +47,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.z1.executor": "Run",
-    "Python.z10.executor": "Run",
-    "Python.z11.executor": "Run",
-    "Python.z12.executor": "Run",
-    "Python.z13.executor": "Run",
-    "Python.z14.executor": "Run",
-    "Python.z15.executor": "Run",
-    "Python.z16.executor": "Run",
-    "Python.z17.executor": "Run",
-    "Python.z18.executor": "Run",
-    "Python.z19.executor": "Run",
-    "Python.z2.executor": "Run",
-    "Python.z20.executor": "Run",
-    "Python.z21.executor": "Run",
-    "Python.z22.executor": "Run",
-    "Python.z23.executor": "Run",
-    "Python.z24.executor": "Run",
-    "Python.z25.executor": "Run",
-    "Python.z26.executor": "Run",
-    "Python.z28.executor": "Run",
-    "Python.z29.executor": "Run",
-    "Python.z3.executor": "Run",
-    "Python.z30.executor": "Run",
-    "Python.z31.executor": "Run",
-    "Python.z32.executor": "Run",
-    "Python.z33.executor": "Run",
-    "Python.z34.executor": "Run",
-    "Python.z35.executor": "Run",
-    "Python.z4.executor": "Run",
-    "Python.z40.executor": "Run",
-    "Python.z41.executor": "Run",
-    "Python.z42.executor": "Run",
-    "Python.z43.executor": "Run",
-    "Python.z44.executor": "Run",
-    "Python.z5.executor": "Run",
-    "Python.z52.executor": "Run",
-    "Python.z58.executor": "Run",
-    "Python.z59.executor": "Run",
-    "Python.z6.executor": "Run",
-    "Python.z61.executor": "Run",
-    "Python.z62.executor": "Run",
-    "Python.z64.executor": "Run",
-    "Python.z65.executor": "Run",
-    "Python.z66.executor": "Run",
-    "Python.z67.executor": "Run",
-    "Python.z7.executor": "Run",
-    "Python.z8.executor": "Run",
-    "Python.z85.executor": "Run",
-    "Python.z9.executor": "Run",
-    "Python.z98.executor": "Run",
-    "Python.z99.executor": "Run",
-    "Python.zapis-na-zajecia.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bruhtek/Projects/wdi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.z1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z28.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z29.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z31.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z33.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z34.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z35.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z40.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z41.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z42.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z43.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z44.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z52.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z58.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z59.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z61.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z62.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z64.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z65.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z66.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z85.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z98.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z99.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zapis-na-zajecia.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bruhtek/Projects/wdi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -112,8 +125,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
   </component>
