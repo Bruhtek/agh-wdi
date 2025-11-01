@@ -7,6 +7,15 @@
     <list default="true" id="3eccf7d1-e0cc-4997-836a-9b2da9503f18" name="Changes" comment="Add .idea to gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/WDI__zbior_zadan.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z2.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z3.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z4.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z5.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z6.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z7.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z8.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zestawy/01 - petle/z9.py" beforeDir="false" afterPath="$PROJECT_DIR$/zestawy/01 - petle/z09.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +115,10 @@
     "Python.z82.executor": "Run",
     "Python.z85.executor": "Run",
     "Python.z9.executor": "Run",
+    "Python.z94.executor": "Run",
+    "Python.z95.executor": "Run",
+    "Python.z96.executor": "Run",
+    "Python.z97.executor": "Run",
     "Python.z98.executor": "Run",
     "Python.z99.executor": "Run",
     "Python.zapis-na-zajecia.executor": "Run",
