@@ -1,5 +1,5 @@
-# Rozwiązania zestawu Gadka 2025/2026
-Nieregularnie aktualizowane rozwiązania zadań z zestawów Garnka z WDI 2025/2026. 
+# Rozwiązania zestawu Garka 2025/2026
+Nieregularnie aktualizowane rozwiązania zadań z zestawów Garka z WDI 2025/2026. 
 
 ## Warto wiedzieć
 - Zero gwarancji poprawności rozwiązań. Mogą być w nich błędy, sporej części zadań nie da się w prosty sposób zweryfikować
