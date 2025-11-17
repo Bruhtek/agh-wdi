@@ -13,34 +13,32 @@ def solve(n, equations):
     if num_letters > 9:
         return "BRAK"
 
-    parsed_equations: list[tuple[str, str, str]] = []
+    parsed_equations = []
     for eq in equations:
-        parts = eq.split('=')
-        left = parts[0]
-        right = parts[1]
-
-        addends = left.split('+')
-        parsed_equations.append((addends[0], addends[1], right))
+        parts = eq.split('=', 1)
+        addends = parts[0].split('+', 1)
+        parsed_equations.append((addends[0], addends[1], parts[1]))
 
     for perm in permutations(range(1, 10), num_letters):
         letter_map = dict(zip(letters, perm))
 
-        valid = True
         for arg1, arg2, result in parsed_equations:
-            num1 = int(''.join(str(letter_map[c]) for c in arg1))
-            num2 = int(''.join(str(letter_map[c]) for c in arg2))
-            expected_result = int(''.join(str(letter_map[c]) for c in result))
+            a = b = c = 0
+            for ch in arg1:
+                a = a * 10 + letter_map[ch]
 
-            if num1 + num2 != expected_result:
-                valid = False
+            for ch in arg2:
+                b = b * 10 + letter_map[ch]
+
+            for ch in result:
+                c = c * 10 + letter_map[ch]
+
+            if a + b != c:
                 break
-
-        if valid:
-            solution = ''.join(str(letter_map[letter]) for letter in letters)
-            return solution
+        else:
+            return ''.join(str(letter_map[letter]) for letter in letters)
 
     return "BRAK"
-
 
 if __name__ == "__main__":
     n = int(input())
