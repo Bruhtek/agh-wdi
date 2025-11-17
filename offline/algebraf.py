@@ -1,81 +1,51 @@
-from typing import Any, Generator
+from itertools import permutations
 
-
-def letter_count(equations: list[str])->int:
-    highest_letter = 0
+def solve(n, equations):
+    letters = set()
     for eq in equations:
-        for letter in eq:
-            if letter == "=" or letter == "+":
-                continue
-            val = ord(letter) - ord("A")
-            highest_letter = max(highest_letter, val)
-    return highest_letter + 1
+        for char in eq:
+            if char.isalpha():
+                letters.add(char)
 
-def letter_value(letter: str, resolutions: list[int]):
-    return resolutions[ord(letter) - ord("A")]
+    letters = sorted(letters)
+    num_letters = len(letters)
 
-def solve_equation(eq: str, res: list[int])->int:
-    a = 0
-    b = 0
-    c = 0
-    iter = 0
-    if letter_value(eq[iter], res) == 0: return False
-    while iter < len(eq):
-        letter = eq[iter]
-        if letter == "+":
-            iter += 1
-            break
-        a = 10 * a + letter_value(letter, res)
-        iter += 1
-    if letter_value(eq[iter], res) == 0: return False
-    while iter < len(eq):
-        letter = eq[iter]
-        if letter == "=":
-            iter += 1
-            break
-        b = 10 * b + letter_value(letter, res)
-        iter += 1
-    if letter_value(eq[iter], res) == 0: return False
-    while iter < len(eq):
-        letter = eq[iter]
-        c = 10 * c + letter_value(letter, res)
-        iter += 1
-    return a + b == c
+    if num_letters > 9:
+        return "BRAK"
 
-
-def equations_work(equations: list[str], resolutions: list[int])->int:
+    parsed_equations: list[tuple[str, str, str]] = []
     for eq in equations:
-        if not solve_equation(eq, resolutions):
-            return False
-    return True
+        parts = eq.split('=')
+        left = parts[0]
+        right = parts[1]
 
-def permutations(head, tail=None)-> Generator[list[int]]:
-    if tail is None:
-        tail = []
-    if len(head) == 0:
-        yield tail
-    else:
-        for i in range(len(head)):
-            for perm in permutations(head[:i] + head[i+1:], tail + [head[i]]):
-                yield perm
+        addends = left.split('+')
+        parsed_equations.append((addends[0], addends[1], right))
+
+    for perm in permutations(range(1, 10), num_letters):
+        letter_map = dict(zip(letters, perm))
+
+        valid = True
+        for arg1, arg2, result in parsed_equations:
+            num1 = int(''.join(str(letter_map[c]) for c in arg1))
+            num2 = int(''.join(str(letter_map[c]) for c in arg2))
+            expected_result = int(''.join(str(letter_map[c]) for c in result))
+
+            if num1 + num2 != expected_result:
+                valid = False
+                break
+
+        if valid:
+            solution = ''.join(str(letter_map[letter]) for letter in letters)
+            return solution
+
+    return "BRAK"
 
 
 if __name__ == "__main__":
     n = int(input())
-    equations = [input() for _ in range(n)]
+    equations = []
+    for _ in range(n):
+        equations.append(input().strip())
 
-    lc = letter_count(equations)
-    resolution_tab = [i for i in range(10)] # all possible combinations, we're only using a subset
-    solved = equations_work(equations, resolution_tab)
-    solution = None
-    for res in permutations(resolution_tab):
-        solved = equations_work(equations, res)
-        if solved:
-            if solution is None:
-                solution = ''.join([str(x) for x in res[0:lc]])
-            else:
-                solution = None
-                print("BRAK")
-                break
-    if solution is not None:
-        print(solution)
+    print(solve(n, equations))
